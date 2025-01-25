@@ -104,15 +104,14 @@ color: #fff
 
 
 .main-button {
-}
-button {
     font-family: "Roboto", sans-serif;
-background: var(--iris);
-color: #fff;
-font-weight: 500;
-line-height: 1.5;
-letter-spacing: 0.04em;
+    background: var(--iris);
+    color: #fff;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
 }
+
 
 .main-button:hover,
 .main-button:focus {
