@@ -112,6 +112,9 @@ height: 56px;
 box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 background: var(--iris);
 color: #fff;
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.04em;
 }
 button:hover,
 button:focus {
