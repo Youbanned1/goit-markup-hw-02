@@ -17,8 +17,8 @@
 
 
 body {
-    font-family: "Roboto", serif;
-    color:#2E2F42;
+    font-family: "Roboto", sans-serif;
+    color: #434455;
     background-color:#FFFFFF ;
 }
  
@@ -51,8 +51,8 @@ button {
 }
 .header-list {
 }
-.header-item {
-}
+
+
 .header-item-link {
 font-weight: 500;
 font-size: 16px;
@@ -67,15 +67,13 @@ color: #2e2f42;
 
 
 .header-addr {
- 
+    font-style: normal;
 }
-.addr-item {
 
-}
 
 .header-item-link:hover,
 .header-item-link:focus{
-    background: #404bbf;
+    color: #404bbf;
 }
 
 .addr-item-link {
@@ -94,7 +92,7 @@ color: #2e2f42;
 
 
 
-h1 {
+.main-title-button {
     font-family: var(--font-family);
 font-weight: 700;
 font-size: 56px;
@@ -104,21 +102,17 @@ text-align: center;
 color: #fff
 }
 
-button {
-    border-radius: 4px;
-padding: 16px 32px;
-width: 169px;
-height: 56px;
-box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+.main-button {
+    font-family: "Roboto", sans-serif;
 background: var(--iris);
 color: #fff;
 font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.04em;
 }
-button:hover,
-button:focus {
-    background: #4d5ae5;;
+.main-button:hover,
+.main-button:focus {
+    background-color: #404BBF;
 }
 
 
@@ -151,7 +145,9 @@ color: #434455;
 
 
 
-
+.hero-main-pic-second{
+    background-color: #F4F4FD;
+}
 .main-title-pic {
     font-family: var(--font-family);
 font-weight: 500;
@@ -168,6 +164,8 @@ line-height: 150%;
 letter-spacing: 0.02em;
 color: #434455;
 }
+
+
 .main-title-second {
     font-family: var(--font-family);
 font-weight: 700;
@@ -177,11 +175,12 @@ letter-spacing: 0.02em;
 color: #2e2f42;
 }
 .main-title-second{
-
+    text-align: center; 
+    text-transform: capitalize;
 }
 
 .main-title-pic{
-
+    background-color: #FFFFFF
 }
 
 
@@ -190,7 +189,7 @@ color: #2e2f42;
 
 
 .footer-logo{
-    font-family: var(--second-family);
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 117%;
@@ -208,19 +207,19 @@ font-weight: 400;
 font-size: 16px;
 line-height: 150%;
 letter-spacing: 0.02em;
-color: #f4f4fd;
+color: #F4F4FD;  
 }
  
 .hero-footer {
-    background: #2e2f42;
+    background-color:  #2e2f42;
 }
 
 .footer-logo-second{
-    font-family: var(--second-family);
+    font-family: "Raleway", sans-serif;
 font-weight: 700;
 font-size: 18px;
 line-height: 117%;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-color: #FFFFFF;
+color: #f4f4fd;
 }
