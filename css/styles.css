@@ -127,9 +127,7 @@ button:focus {
 
 
 
-.main-list-pic{
-    background-color: #FFFFFF;
-}
+
 
 
 .main-list {
@@ -154,7 +152,9 @@ color: #434455;
 }
 
 
-
+.main-item-pic{
+    background-color: #FFFFFF;
+}
 
 .hero-main-pic-second{
     background-color: #F4F4FD;
