@@ -102,7 +102,10 @@ text-align: center;
 color: #fff
 }
 
+
 .main-button {
+}
+button {
     font-family: "Roboto", sans-serif;
 background: var(--iris);
 color: #fff;
@@ -110,8 +113,12 @@ font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.04em;
 }
+
 .main-button:hover,
 .main-button:focus {
+}
+button:hover,
+button:focus {
     background-color: #404BBF;
 }
 
